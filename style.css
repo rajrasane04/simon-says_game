@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 190px;
+    width: 190px;
+    border: 11px solid black;
+    border-radius: 20%;
+    margin: 2.2rem;
+} 
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #d95980
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
