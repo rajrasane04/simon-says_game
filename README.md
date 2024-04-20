@@ -8,14 +8,14 @@
 4. **Level Up** : If you successfully repeat the sequence, Simon will add another color to the sequence, increasing the difficulty.
 5. **Game Over** : If you make a mistake, the game will end. You can then press any key on your keyword to play again.
 
+## Try it Out
+
+&nbsp;&nbsp;&nbsp; - [Demo](https://rajrasane04.github.io/simon-says_Game/)
+
 ## Features
 
 - Increasing difficulty level as you progress.
 - Simple and intuitive user interface.
-
-## Try it Out
-
-&nbsp;&nbsp;&nbsp; - [Demo](https://rajrasane04.github.io/simon-says_Game/)
 
 ## Get Started
 
