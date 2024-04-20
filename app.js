@@ -9,12 +9,15 @@ let started = false;
 
 let level = 0;
 
-document.addEventListener("keypress", function(){
+let startbtn = document.querySelector("button");
+
+startbtn.addEventListener("click", function(){
     if(started==false){
         console.log("Game Started!");
         started=true;
     }
 
+    startbtn.remove();
     levelup();
 })
 
@@ -53,7 +56,7 @@ function checkAns(idx){
             setTimeout(levelup,1000)
         }
     }else{
-        h2.innerHTML = `Game Over! Your Score was <b> <u> ${level} </u> </b> <br> Press any key to start again`;
+        h2.innerHTML = `Game Over! Your Score was <b> <u> ${level} </u> </b> <br> Press 'Start' Button to play again`;
         reset();
         document.querySelector('body').style.backgroundColor = "red";
         setTimeout(() => {
@@ -83,4 +86,26 @@ function reset(){
     gameseq = [];
     userseq = [];
     level = 0;
+    addstartagain();
+}
+
+function addstartagain() {
+    if (!document.querySelector(".startbtn")) {
+        let newstartbtn = document.createElement("button");
+        newstartbtn.innerHTML = "<b>Start</b>";
+        newstartbtn.classList.add("startbtn");
+        
+        newstartbtn.addEventListener("click", function() {
+            if (!started) {
+                console.log("Game Started!");
+                started = true;
+                document.querySelector('body').style.backgroundColor = "white";
+            }
+
+            newstartbtn.remove(); 
+            levelup(); 
+        });
+        
+        document.body.appendChild(newstartbtn);
+    }
 }

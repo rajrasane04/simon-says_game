@@ -42,3 +42,26 @@ body{
 h1{
     font-family: 'Courier New', Courier, monospace;
 }
+
+.startbtn {
+    background-color: #ff6f61; 
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 17.3px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    font-family :'Courier New', Courier, monospace ;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.startbtn:hover {
+    background-color: #b12e1a; 
+}
+
+.startbtn:active {
+    transform: translateY(1px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
