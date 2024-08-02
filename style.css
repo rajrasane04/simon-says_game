@@ -44,7 +44,7 @@ h1{
 }
 
 .startbtn {
-    background-color: #ff6f61; 
+    background-color: black; 
     border: none;
     color: white;
     padding: 15px 30px;
@@ -58,7 +58,7 @@ h1{
 }
 
 .startbtn:hover {
-    background-color: #b12e1a; 
+    background-color: darkgray; 
 }
 
 .startbtn:active {
