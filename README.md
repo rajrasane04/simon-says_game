@@ -10,7 +10,7 @@
 
 ## Try it Out
 
-&nbsp;&nbsp;&nbsp; - [Demo](https://rajrasane04.github.io/simon-says_Game/)
+&nbsp;&nbsp;&nbsp; - [Demo](https://rajrasane04.github.io/simon-says_game/)
 
 ## Features
 
